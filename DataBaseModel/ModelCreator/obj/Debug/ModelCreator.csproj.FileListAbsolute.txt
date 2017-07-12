@@ -1,0 +1,9 @@
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\ModelCreator.dll.config
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\ModelCreator.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\ModelCreator.pdb
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\EntityFramework.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\EntityFramework.xml
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\obj\Debug\ModelCreator.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\ModelCreator\obj\Debug\ModelCreator.pdb

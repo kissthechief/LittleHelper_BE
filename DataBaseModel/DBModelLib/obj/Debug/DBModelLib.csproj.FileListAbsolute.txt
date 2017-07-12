@@ -1,0 +1,8 @@
+C:\Users\afritzsche\Desktop\Timesheet\DataBaseModel\DBModelLib\bin\Debug\DBModelLib.dll
+C:\Users\afritzsche\Desktop\Timesheet\DataBaseModel\DBModelLib\bin\Debug\DBModelLib.pdb
+C:\Users\afritzsche\Desktop\Timesheet\DataBaseModel\DBModelLib\obj\Debug\DBModelLib.dll
+C:\Users\afritzsche\Desktop\Timesheet\DataBaseModel\DBModelLib\obj\Debug\DBModelLib.pdb
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\DBModelLib\bin\Debug\DBModelLib.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\DBModelLib\bin\Debug\DBModelLib.pdb
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\DBModelLib\obj\Debug\DBModelLib.dll
+C:\Users\afritzsche\Desktop\LittleHelper\DataBaseModel\DBModelLib\obj\Debug\DBModelLib.pdb

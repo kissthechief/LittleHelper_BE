@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LittleHelperApi</name>
+    </assembly>
+    <members>
+        <member name="T:LittleHelperApi.AutoMapperConfig">
+            <summary>
+             Gloabel auto mapper configuration
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.AutoMapperConfig.#ctor">
+            <summary>
+            Constructor for configuration
+            </summary>
+        </member>
+        <member name="T:LittleHelperApi.UnityConfig">
+            <summary>
+            Configuration file for dependency injection
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.UnityConfig.GetConfiguredContainer">
+            <summary>
+            Gets the configured Unity container.
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.UnityConfig.RegisterTypes(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>Registers the type mappings with the Unity container.</summary>
+            <param name="container">The unity container to configure.</param>
+            <remarks>There is no need to register concrete types such as controllers or API controllers (unless you want to 
+            change the defaults), as Unity allows resolving a concrete type even if it was not previously registered.</remarks>
+        </member>
+        <member name="T:LittleHelperApi.Controllers.InventarController">
+            <summary>
+            Controller for Inventar Logics
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.Controllers.InventarController.#ctor(BusinessLayer.InventarLogic.IInventarLogic)">
+            <summary>
+            Injection constructor
+            </summary>
+            <param name="inventarLogic"></param>
+        </member>
+        <member name="M:LittleHelperApi.Controllers.InventarController.GetUserInventar(System.Int32)">
+            <summary>
+            Collects the invenat of a user and returns it
+            </summary>
+            <param name="id">User id to identify the Inventar</param>
+            <returns>A inventar of a single user</returns>
+        </member>
+        <member name="T:LittleHelperApi.Controllers.UserController">
+            <summary>
+            The Controller to handle all user actions
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.Controllers.UserController.#ctor(BusinessLayer.UserLogic.IUserLogic)">
+            <summary>
+            Injection Constructor
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get the profile for a user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LittleHelperApi.Controllers.UserController.UpdateProfile(BusinessLayer.DTOs.UserDto)">
+            <summary>
+            Update of a user profile if the user has the rights to do it
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LittleHelperApi.WebApiApplication">
+            <summary>
+            Configuration for the wep api
+            </summary>
+        </member>
+        <member name="M:LittleHelperApi.WebApiApplication.Application_Start">
+            <summary>
+            Things to do at app start
+            </summary>
+        </member>
+    </members>
+</doc>
